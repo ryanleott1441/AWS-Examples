@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-echo "== list newest buckets"
+echo "== list buckets"
 
-aws s3api list-buckets | jq -r '.Buckets | sort_by(.CreationDate) | reverse | .[0:5] | .[] | .Name'
+#aws s3api list-buckets | jq -r '.Buckets | sort_by(.CreationDate) | reverse | .[0:5] | .[] | .Name'
+
+aws s3api list-buckets --query "Buckets[].Name" --output text
 
 echo "..."
