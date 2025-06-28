@@ -1,1 +1,15 @@
 #!/usr/bin/env bash
+
+echo "== deleting  bucket"
+
+if [ -z "$1" ]; then
+    echo "There needs to be a bucket name"
+    exit 1
+fi
+
+aws s3api delete-bucket \
+ --bucket $1 
+
+ echo "deleting $1" 
+
+ aws s3 ls 
