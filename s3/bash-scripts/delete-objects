@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-
-echo "== list objects"
+echo "== delete objects"
+#exit immediatly if any command returns a non zero status
+set -e
 
 #check bucket name
 if [ -z "$1" ]; then
@@ -10,6 +11,6 @@ fi
 
 BUCKET_NAME=$1
 
-aws s3api list-objects-v2 \
+aws s3api delete-objects \
  --bucket $BUCKET_NAME \
- --output text
+ --delete 
