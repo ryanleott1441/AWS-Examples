@@ -11,6 +11,4 @@ fi
 
 BUCKET_NAME=$1
 
-aws s3api delete-objects \
- --bucket $BUCKET_NAME \
- --delete 
+aws s3 rm s3://leotti --recursive

@@ -22,7 +22,7 @@ FILENAME_PREFIX=$2
 OUTPUT_DIR="/tmp/s3-bash-scripts"
 
 #remove folder if it already exists 
-rm -r $OUTPUT_DIR
+rm -rf $OUTPUT_DIR
 
 
 #lets create output folder
