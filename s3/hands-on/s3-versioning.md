@@ -7,7 +7,7 @@ aws s3api put-bucket-versioning \
   --versioning-configuration Status=Enabled
 
 ## upload file
-echo "Hello" > ./AWS-Examples/s3/hands-on/hello.txt
+echo "Hello23" > hello.txt
 aws s3 cp hello.txt s3://leotti
 
 ## delete the current version of the file
@@ -26,7 +26,7 @@ aws s3api list-object-versions \
 aws s3api delete-object \
   --bucket leotti \
   --key hello.txt \
-  --version-id PUT_VERSION_ID_HERE
+  --version-id nLQVQeoRtvB9eBjlahnS3tbbXxsIYafu
 
 ## Recover the file
 aws s3api delete-object \
@@ -40,8 +40,10 @@ for type in Versions DeleteMarkers; do
     --bucket leotti \
     --prefix hello.txt \
     --query="$type[].{Key:Key,VersionId:VersionId}" \
-    --output text | while read key version; do
-      aws s3api delete-object --bucket leotti --key "$key" --version-id "$version"
+    --output text | grep -v '^$' | while read key version; do
+      if [[ -n "$version" ]]; then
+        aws s3api delete-object --bucket leotti --key "$key" --version-id "$version"
+      fi
   done
 done
 
