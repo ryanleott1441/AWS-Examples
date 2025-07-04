@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+BUCKET=$1 
+KEY=$2
+NEW_STORAGE_CLASS=$3
+
+## if statements to check for user input 
+if [ -z "$1" ] ;  then
+    echo "Please provide a bucket "
+    exit 1
+fi
+
+if [ -z "$2" ] ;  then
+    echo "Please provide a file name "
+    exit 1
+fi
+
+if [ -z "$3" ] ;  then
+    echo "Please provide a storage class"
+    exit 1
+fi
+
+
+## copies our object with the correct storage class that we want 
+aws s3api copy-object \
+ --bucket "$BUCKET" \
+ --key "$KEY" \
+ --copy-source "$BUCKET/$KEY" \
+  --storage-class "$NEW_STORAGE_CLASS" \
+ --metadata-directive COPY
+
+## this will lit out the version ids so that we can pull the old version 
+VERSION_IDS=($(aws s3api list-object-versions \
+  --bucket "$BUCKET" \
+  --prefix "$KEY" \
+  --query "Versions[?Key=='$KEY'] | [].VersionId" \
+  --output text))
+
+## now we enure a old version is present and delete that old version leaving only the new version 
+if [ "${#VERSION_IDS[@]}" -gt 1 ]; then
+  aws s3api delete-object \
+   --bucket "$BUCKET" \
+   --key "$KEY" \
+   --version-id "${VERSION_IDS[1]}"
+   echo "Delete old version: ${VERSION_IDS[1]}"
+else 
+  echo "Only one version found. Nothing to delete"
+fi
+
+
+
+
