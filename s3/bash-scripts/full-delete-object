@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+BUCKET=$1
+KEY=$2
+
+if [ -z "$BUCKET" ] || [ -z "$KEY" ]; then
+  echo "Please input Bucket and File name"
+  exit 1
+fi
+
+# Get all version IDs for the object
+VERSION_IDS=$(aws s3api list-object-versions \
+  --bucket "$BUCKET" \
+  --prefix "$KEY" \
+  --query "Versions[?Key=='$KEY'].VersionId" \
+  --output text)
+
+# Delete each version
+for VERSION_ID in $VERSION_IDS; do
+  echo "Deleting version: $VERSION_ID"
+  aws s3api delete-object \
+    --bucket "$BUCKET" \
+    --key "$KEY" \
+    --version-id "$VERSION_ID"
+done
+
+# Optionally, delete delete markers (if versioning was suspended/re-enabled)
+DELETE_MARKERS=$(aws s3api list-object-versions \
+  --bucket "$BUCKET" \
+  --prefix "$KEY" \
+  --query "DeleteMarkers[?Key=='$KEY'].VersionId" \
+  --output text)
+
+if [ -n "$DELETE_MARKERS" ] && [ "$DELETE_MARKERS" != "None" ]; then
+  for DM_VERSION_ID in $DELETE_MARKERS; do
+    echo "Deleting delete marker: $DM_VERSION_ID"
+    aws s3api delete-object \
+      --bucket "$BUCKET" \
+      --key "$KEY" \
+      --version-id "$DM_VERSION_ID"
+  done
+else
+  echo "No delete markers found."
+fi

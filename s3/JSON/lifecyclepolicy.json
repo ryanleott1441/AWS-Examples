@@ -1,21 +1,48 @@
 {
   "Rules": [
     {
-      "ID": "LogsToStandardIA",
+      "ID": "FullLifecycleManagement",
       "Filter": {
-        //"Prefix": "logs/" This tags with prefex
-         "Tag": {
-          "Key": "archive",
-          "Value": "true"
-        }
+        "Prefix": ""
       },
       "Status": "Enabled",
       "Transitions": [
         {
           "Days": 30,
           "StorageClass": "STANDARD_IA"
+        },
+        {
+          "Days": 90,
+          "StorageClass": "ONEZONE_IA"
+        },
+        {
+          "Days": 365,
+          "StorageClass": "GLACIER"
+        },
+        {
+          "Days": 1095,
+          "StorageClass": "DEEP_ARCHIVE"
         }
-      ]
+      ],
+      "Expiration": {
+        "Days": 3650
+      },
+      "NoncurrentVersionExpiration": {
+        "NoncurrentDays": 365
+      },
+      "AbortIncompleteMultipartUpload": {
+        "DaysAfterInitiation": 7
+      }
+    },
+    {
+      "ID": "DeleteMarkers",
+      "Filter": {
+        "Prefix": ""
+      },
+      "Status": "Enabled",
+      "Expiration": {
+        "ExpiredObjectDeleteMarker": true
+      }
     }
   ]
 }
