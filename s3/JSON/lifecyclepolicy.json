@@ -1,0 +1,21 @@
+{
+  "Rules": [
+    {
+      "ID": "LogsToStandardIA",
+      "Filter": {
+        //"Prefix": "logs/" This tags with prefex
+         "Tag": {
+          "Key": "archive",
+          "Value": "true"
+        }
+      },
+      "Status": "Enabled",
+      "Transitions": [
+        {
+          "Days": 30,
+          "StorageClass": "STANDARD_IA"
+        }
+      ]
+    }
+  ]
+}
