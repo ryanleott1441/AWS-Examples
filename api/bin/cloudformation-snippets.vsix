@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>AWS CloudFormation Snippets 5.62.0 VSIX (Latest Version) - VsixHub</title>
+<meta name="description" content="Free Download AWS CloudFormation Snippets 5.62.0 Vsix File for Visual Studio Code">
+<link rel="canonical" href="https://www.vsixhub.com/vsix/142623/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AWS CloudFormation Snippets 5.62.0 VSIX (Latest Version) - VsixHub">
+<meta property="og:description" content="Free Download AWS CloudFormation Snippets 5.62.0 Vsix File for Visual Studio Code">
+<meta property="og:url" content="https://www.vsixhub.com/vsix/142623/">
+<meta property="og:image" content="https://pic.vsixhub.com/17/41/dannysteenman.cloudformation-yaml-snippets-logo.webp">
+<meta property="og:site_name" content="VsixHub.com">
+<script type="application/ld+json">{"@context":"http://schema.org/","@type":"SoftwareApplication","name":"AWS CloudFormation Snippets","softwareVersion":"5.62.0","datePublished":"March 8, 2019","dateModified":"July 4, 2025","applicationCategory":"Snippets","fileSize":"34.84 MB","description":"Free Download AWS CloudFormation Snippets 5.62.0 Vsix File for Visual Studio Code","image":"https://pic.vsixhub.com/17/41/dannysteenman.cloudformation-yaml-snippets-logo.webp","url":"https://www.vsixhub.com/vsix/142623/","author":{"@type":"Organization","name":"Danny Steenman"},"offers":{"@type":"Offer","price":0,"priceCurrency":"USD"}}</script>
+<link rel="dns-prefetch preconnect" href="https://s.vsixhub.com/">
+<link rel="dns-prefetch preconnect" href="https://pic.vsixhub.com/">
+<link rel="stylesheet" id="style-css" href="https://s.vsixhub.com/site.css" type="text/css" media="all">
+<link rel="icon" href="https://s.vsixhub.com/favicon.ico" type="image/x-icon">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6GMJKNDW6N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6GMJKNDW6N');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9734249858226775?ers=1" nonce="Px31d7zSeAp55_CjHENkjA"></script><script nonce="Px31d7zSeAp55_CjHENkjA">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9734249858226775" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="wrapper" class="container clearfix">
+<div id="catnav">
+<ul class="catmenu container clearfix">
+	<li class="menu-item">
+		<a href="/" title="Home">Home</a>
+		<ul class="sub-menu">
+			<li class="menu-item"><a href="/featured/" title="Featured">Featured</a></li>
+			<li class="menu-item"><a href="/tags/" title="Tags">Tags</a></li>
+		</ul>
+	</li>
+	<li class="menu-item">
+		<a href="/trending/" title="Trending">Trending</a>
+		<ul class="sub-menu">
+			<li class="menu-item"><a href="/trending-week/" title="Trending This Week">Trending This Week</a></li>
+			<li class="menu-item"><a href="/trending-month/" title="Trending This Month">Trending This Month</a></li>
+		</ul>
+	</li>
+	<li class="menu-item"><a href="/top/" title="Top Extensions">Top Extensions</a></li>
+	<li class="menu-item"><a href="/top-updated/" title="Top Updated">Top Updated</a></li>
+	<li class="menu-item"><a href="/top-new/" title="Top New">Top New</a></li>
+	<li class="menu-item"><a href="/best-rated/" title="Best Rated">Best Rated</a></li>
+	<li class="menu-item"><a href="/most-popular/" title="Most Popular">Most Popular</a></li>
+	<li class="menu-item"><a href="/most-installed/" title="Most Installed">Most Installed</a></li>
+	<li class="menu-item"><a href="/new/" title="New Added">New Added</a></li>
+	<li class="menu-item">
+		<a href="/contact-us/" title="Contact Us">Contact Us</a>
+		<ul class="sub-menu">
+			<li class="menu-item"><a href="/dmca-policy/" title="DMCA Policy">DMCA Policy</a></li>
+			<li class="menu-item"><a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div id="wrapper-container">
+<div id="header">
+	<div id="logo">
+		<a href="/" title="VsixHub - Best Extensions for VS Code"><img src="https://s.vsixhub.com/logo.webp" width="120" height="28" alt="VsixHub - Best Extensions for VS Code"></a>
+	</div>
+	<div class="head-search">
+		<form method="get" class="searchform" action="/search.php">
+			<input class="searchfield" type="text" name="s" id="s" value="" placeholder="Search here...">
+			<input type="submit" id="searchsubmit" value="Search">
+		</form>
+	</div>
+</div>
+<div class="clearfix"></div>
+<div class="secondary">
+<a href="/category/themes/" title="Category: Themes">Themes</a>
+<a href="/category/programming-languages/" title="Category: Programming Languages">Programming Languages</a>
+<a href="/category/linters/" title="Category: Linters">Linters</a>
+<a href="/category/debuggers/" title="Category: Debuggers">Debuggers</a>
+<a href="/category/visualization/" title="Category: Visualization">Visualization</a>
+<a href="/category/snippets/" title="Category: Snippets" class="current">Snippets</a>
+<a href="/category/keymaps/" title="Category: Keymaps">Keymaps</a>
+<a href="/category/formatters/" title="Category: Formatters">Formatters</a>
+<a href="/category/extension-packs/" title="Category: Extension Packs">Extension Packs</a>
+</div>
+<div id="blocks-wrapper" class="clearfix">
+<div id="blocks-left" class="eleven columns clearfix">
+<ul id="tpcrn-breadcrumbs">
+	<li><a href="/" title="Home">Home &raquo;</a></li>
+	<li><a href="/category/snippets/" title="Category: Snippets">Snippets &raquo;</a></li>
+	<li class="current">AWS CloudFormation Snippets 5.62.0 Vsix File</li>
+</ul>
+<div class="post-app">
+	<div class="post-app-img">
+		<img src="https://pic.vsixhub.com/17/41/dannysteenman.cloudformation-yaml-snippets-icon.webp" width="80" height="80" title="AWS CloudFormation Snippets" alt="AWS CloudFormation Snippets">
+	</div>
+	<div class="post-app-info">
+		<h1 class="post-app-title" title="AWS CloudFormation Snippets 5.62.0 Vsix File Free Download">AWS CloudFormation Snippets 5.62.0 Vsix File Free Download</h1>
+		<p class="post-app-meta m10">A Free <a href="/category/snippets/" title="Category: Snippets">Snippets</a> Extension By <a href="/publisher/1632/" title="Published By Danny Steenman (dannysteenman)">Danny Steenman (dannysteenman)</a></p>
+		<p class="post-app-meta">
+			<span class="post-text star" title="0 Votes, Average: 5 out of 5">★★★★★ 5</span>
+			<span class="post-text">Downloads: 27</span>
+			<span class="post-text">Updated: July 4, 2025</span>
+		</p>
+	</div>
+</div>
+<div class="clear"></div>
+<div style="padding:10px 0 30px 0;margin:0 auto;text-align:center;">
+<!-- vsc-down -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9734249858226775"
+     data-ad-slot="3531338671"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class="clear"></div>
+<p class="app-desc">You are about to download the <strong>vsix file for AWS CloudFormation Snippets v5.62.0 extension on Visual Studio Code 1.31.0 and up</strong>: AWS CloudFormation Snippets, Adds snippets for all the AWS CloudFormation resources in VS Code. ...</p>
+<p class="app-desc">Please note that the <a href="/vsix/142623/" title="Vsix File on VsixHub">AWS CloudFormation Snippets Vsix file v5.62.0</a> on VsixHub is the original file archived from the Visual Studio Marketplace. You could choose a server to download the offline vsix extension file and install it.</p>
+<div style="padding:15px 0 25px 0;margin:0 auto;text-align:center;">
+	<img src="https://pic.vsixhub.com/17/41/dannysteenman.cloudformation-yaml-snippets-logo.webp" class="app-art" loading="lazy" width="200" height="200" title="AWS CloudFormation Snippets for VSCode" alt="AWS CloudFormation Snippets for VSCode">
+</div>
+<div class="clear"></div>
+<blockquote>
+	<h2 class="app-title"><b>Install Latest Version of AWS CloudFormation Snippets</b></h2>
+	<hr>
+	<div style="text-align:center;" class="info">
+		<div style="padding:0 0 15px 0;">
+			<p>Snippets &gt; AWS CloudFormation Snippets</p>
+			<p>Publisher: Danny Steenman (dannysteenman)</p>
+			<p>Latest Version: 5.62.0</p>
+			<p>Updated: July 4, 2025</p>
+			<p>Extension Size: 34.84 MB</p>
+		</div>
+		<p style="padding:0 0 20px 0;">
+			<a href="/go.php?post_id=142623&amp;app_id=dannysteenman.cloudformation-yaml-snippets&amp;s=v5JvBKFt3oawk&amp;link=vscode%3Aextension%2Fdannysteenman.cloudformation-yaml-snippets" title="Install on Visual Studio Code" style="min-width:225px;" rel="nofollow" class="download-button"><span class="icon">⇨</span><span class="text">Install on Visual Studio Code</span></a>
+		</p>
+		<p style="padding:0 0 20px 0;">
+			<a href="/go.php?post_id=142623&amp;app_id=dannysteenman.cloudformation-yaml-snippets&amp;s=v5JvBKFt3oawk&amp;link=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Ddannysteenman.cloudformation-yaml-snippets" title="Get it on Web Marketplace" style="min-width:225px;" target="_blank" rel="nofollow noopener" class="download-button"><span class="icon">⇨</span><span class="text">Get it on Web Marketplace</span></a>
+		</p>
+		<p style="padding:0 0 20px 0;">
+			<a href="/go.php?post_id=142623&amp;app_id=dannysteenman.cloudformation-yaml-snippets&amp;s=v5JvBKFt3oawk&amp;link=https%3A%2F%2Fmarketplace.visualstudio.com%2F_apis%2Fpublic%2Fgallery%2Fpublishers%2Fdannysteenman%2Fvsextensions%2Fcloudformation-yaml-snippets%2F5.62.0%2Fvspackage" title="Download Latest VSIX File" style="min-width:225px;" target="_blank" rel="nofollow noopener" class="download-button"><span class="icon">⇨</span><span class="text">Download Latest VSIX File</span></a>
+		</p>
+		<p style="padding:0 0 20px 0;">
+			<a href="https://towardsthecloud.com" title="https://towardsthecloud.com" style="min-width:225px;" target="_blank" rel="noopener" class="download-button"><span class="icon">⇨</span><span class="text">Visit Developer Website</span></a>
+		</p>
+	</div>
+	<hr>
+	<div style="padding:20px 0 30px 0;margin:0 auto;text-align:center;">
+<!-- vsc-down-d -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9734249858226775"
+     data-ad-slot="9068567378"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+</blockquote>
+<blockquote>
+	<h2 class="app-title">More VSIX Package Information (Latest Version)</h2>
+	<hr>
+	<div class="info">
+		<p>• Unique Identifier: dannysteenman.cloudformation-yaml-snippets</p>
+		<p>• Vsix File: cloudformation-yaml-snippets-5.62.0_vsixhub.com.vsix</p>
+		<p>• Extension Version: 5.62.0</p>
+		<p>• Requires: VS Code 1.31.0 and up</p>
+		<p>• File Size: 34.84 MB (36532719 Bytes)</p>
+		<p>• MD5: 89aa2ddcec966cb5e1604f8a0900cf90</p>
+		<p>• SHA1: 758424da6c9a26b45831f5789a60383aeb263d19</p>
+		<p>• SHA256: c5c3708b779f552521da873f0ca7f663f4e6fc3e84e13ac3f060e954724e32f9</p>
+		<p>• <a href="/go.php?post_id=142623&amp;app_id=dannysteenman.cloudformation-yaml-snippets&amp;s=v5JvBKFt3oawk&amp;link=https%3A%2F%2Fmarketplace.visualstudio.com%2F_apis%2Fpublic%2Fgallery%2Fpublishers%2Fdannysteenman%2Fvsextensions%2Fcloudformation-yaml-snippets%2F5.62.0%2Fvspackage" target="_blank" rel="nofollow noopener" title="Download vsix from vscode marketplace server">Download vsix from vscode marketplace server</a></p>
+	</div>
+	<p class="app-desc">AWS CloudFormation Snippets is also included in these tags: <a href="/tag/2218/" title="Tag: aws">aws</a>, <a href="/tag/2220/" title="Tag: cloudformation">cloudformation</a>, <a href="/tag/31317/" title="Tag: iac">iac</a>, <a href="/tag/32/" title="Tag: json">json</a>, <a href="/tag/2221/" title="Tag: sam">sam</a>, <a href="/tag/38/" title="Tag: snippet">snippet</a>, <a href="/tag/41/" title="Tag: yaml">yaml</a></p>
+	<hr>
+	<div style="padding:20px 0 30px 0;margin:0 auto;text-align:center;">
+<!-- vsc-down-tag -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9734249858226775"
+     data-ad-slot="4349596324"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+</blockquote>
+<blockquote>
+	<p><b>What Does The Extension Do</b></p>
+	<hr>
+	<div class="info">
+		<p><strong>AWS CloudFormation Snippets</strong> is a freeware extension for VS Code published by Danny Steenman, you can install it to increase the power of your Visual Studio Code:</p>
+		<p>Adds snippets for all the AWS CloudFormation resources in VS Code. ... <a href="https://towardsthecloud.com" title="Learn More" target="_blank" rel="nofollow noopener">Learn More &gt;</a></p>
+	</div>
+</blockquote>
+<blockquote>
+	<p><b>How to Install AWS CloudFormation Snippets From a VSIX</b></p>
+	<hr>
+	<div class="info">
+		<p>You can easily install the AWS CloudFormation Snippets extension packaged in the .vsix file:</p>
+		<p>Launch VS Code, use the <strong>Install from VSIX</strong> command in the Extensions view command dropdown, or the <strong>Extensions: Install from VSIX...</strong> command in the <strong>Command Palette</strong>, point to the .vsix file (i.e. cloudformation-yaml-snippets-5.62.0_vsixhub.com.vsix).</p>
+		<p>You can also install using the VS Code <span style="font-style:italic;">--install-extension</span> command-line switch providing the path to the .vsix file:</p>
+		<p><strong>`code --install-extension cloudformation-yaml-snippets-5.62.0_vsixhub.com.vsix`</strong></p>
+	</div>
+</blockquote>
+<blockquote>
+	<p><b>AWS CloudFormation Snippets Version History</b></p>
+	<hr>
+	<div class="info">
+		<p>• <a href="/vsix/171655/" title="Download AWS CloudFormation Snippets 5.61.0">AWS CloudFormation Snippets 5.61.0</a> (Updated: June 27, 2025)</p>
+		<p>• <a href="/vsix/171316/" title="Download AWS CloudFormation Snippets 5.60.0">AWS CloudFormation Snippets 5.60.0</a> (Updated: June 21, 2025)</p>
+		<p>• <a href="/vsix/170656/" title="Download AWS CloudFormation Snippets 5.59.0">AWS CloudFormation Snippets 5.59.0</a> (Updated: May 23, 2025)</p>
+		<p>• <a href="/vsix/169182/" title="Download AWS CloudFormation Snippets 5.58.0">AWS CloudFormation Snippets 5.58.0</a> (Updated: May 16, 2025)</p>
+		<p>• <a href="/vsix/168601/" title="Download AWS CloudFormation Snippets 5.57.0">AWS CloudFormation Snippets 5.57.0</a> (Updated: May 9, 2025)</p>
+		<p>• <a href="/vsix/168020/" title="Download AWS CloudFormation Snippets 5.56.0">AWS CloudFormation Snippets 5.56.0</a> (Updated: May 2, 2025)</p>
+		<p>• <a href="/vsix/167443/" title="Download AWS CloudFormation Snippets 5.55.0">AWS CloudFormation Snippets 5.55.0</a> (Updated: April 25, 2025)</p>
+		<p>• <a href="/vsix/167058/" title="Download AWS CloudFormation Snippets 5.54.0">AWS CloudFormation Snippets 5.54.0</a> (Updated: April 18, 2025)</p>
+		<p>• <a href="/vsix/166310/" title="Download AWS CloudFormation Snippets 5.52.0">AWS CloudFormation Snippets 5.52.0</a> (Updated: April 11, 2025)</p>
+		<p>• <a href="/vsix/165933/" title="Download AWS CloudFormation Snippets 5.51.0">AWS CloudFormation Snippets 5.51.0</a> (Updated: April 4, 2025)</p>
+		<p>• <a href="/history/142623/" title="Full Version History">Full Version History &gt;</a></p>
+	</div>
+</blockquote>
+<h2 class="app-title"><i>More Extensions to Consider (Similar or Related)</i></h2>
+<div style="padding:25px 0 0 0;">
+	<ul class="apps">
+<li>
+	<a href="/vsix/31165/" title="Download Marquee 2.0.0 VSIX"><img src="https://pic.vsixhub.com/40/4c/c64f81d3-a4bd-4afc-b116-31a5f58a0c11-logo.webp" loading="lazy" width="150" height="150" alt="Marquee 2.0.0 VSIX"></a>
+	<p class="hidden"><a href="/vsix/31165/" title="Download Marquee for VSCode">Marquee 2.0.0</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<li>
+	<a href="/vsix/142627/" title="Download DotRush 25.7.184 VSIX"><img src="https://pic.vsixhub.com/5c/a7/nromanov.dotrush-logo.webp" loading="lazy" width="150" height="150" alt="DotRush 25.7.184 VSIX"></a>
+	<p class="hidden"><a href="/vsix/142627/" title="Download DotRush for VSCode">DotRush 25.7.184</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<li>
+	<a href="/vsix/147202/" title="Download StarDust 1.0.5 VSIX"><img src="https://pic.vsixhub.com/cd/56/vitorfazoli.stardust-logo.webp" loading="lazy" width="150" height="150" alt="StarDust 1.0.5 VSIX"></a>
+	<p class="hidden"><a href="/vsix/147202/" title="Download StarDust for VSCode">StarDust 1.0.5</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<li>
+	<a href="/vsix/148009/" title="Download Windows Path 1.0.1 VSIX"><img src="https://pic.vsixhub.com/1e/31/coalaura.win-path-logo.webp" loading="lazy" width="150" height="150" alt="Windows Path 1.0.1 VSIX"></a>
+	<p class="hidden"><a href="/vsix/148009/" title="Download Windows Path for VSCode">Windows Path 1.0.1</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<li>
+	<a href="/vsix/161423/" title="Download Cool Cline 4.6.5 VSIX"><img src="https://pic.vsixhub.com/ff/4d/coolcline.coolcline-logo.webp" loading="lazy" width="150" height="150" alt="Cool Cline 4.6.5 VSIX"></a>
+	<p class="hidden"><a href="/vsix/161423/" title="Download Cool Cline for VSCode">Cool Cline 4.6.5</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<li>
+	<a href="/vsix/166563/" title="Download PHP Debug Snippets 1.0.10 VSIX"><img src="https://pic.vsixhub.com/82/ef/sahilkothiya.php-debug-snippets-logo.webp" loading="lazy" width="150" height="150" alt="PHP Debug Snippets 1.0.10 VSIX"></a>
+	<p class="hidden"><a href="/vsix/166563/" title="Download PHP Debug Snippets for VSCode">PHP Debug Snippets 1.0.10</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<li>
+	<a href="/vsix/167521/" title="Download ProdE AI Tab Autocomplete 0.1.2 VSIX"><img src="https://pic.vsixhub.com/be/c9/curiousboxai.prode-tab-autocomplete-logo.webp" loading="lazy" width="150" height="150" alt="ProdE AI Tab Autocomplete 0.1.2 VSIX"></a>
+	<p class="hidden"><a href="/vsix/167521/" title="Download ProdE AI Tab Autocomplete for VSCode">ProdE AI Tab Autocomplete 0.1.2</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<li>
+	<a href="/vsix/167536/" title="Download Minecraft Plugin Development 1.0.3 VSIX"><img src="https://pic.vsixhub.com/71/37/gabodev.minecraft-plugin-development-logo.webp" loading="lazy" width="150" height="150" alt="Minecraft Plugin Development 1.0.3 VSIX"></a>
+	<p class="hidden"><a href="/vsix/167536/" title="Download Minecraft Plugin Development for VSCode">Minecraft Plugin Development 1.0.3</a></p>
+	<p><a href="/category/snippets/" title="Category: Snippets" class="down">Snippets</a></p>
+</li>
+<br>
+	</ul>
+</div>
+<div class="clear"></div>
+</div>
+<div id="sidebar" class="six columns clearfix">
+<div class="sidebar-widget">
+	<div style="padding:0 0 0 5px;text-align:center;">
+<!-- vsc-sidebar -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9734249858226775"
+     data-ad-slot="7965407706"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</div>
+</div>
+<div class="sidebar-widget">
+	<h3 class="widget-head">Popular Downloads</h3>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/166/" title="Download Node Snippets 1.4.0 VSIX"><img src="https://pic.vsixhub.com/d1/96/fa17bcf3-8d28-4673-9e23-c448c372e20c-icon.webp" loading="lazy" width="80" height="80" alt="Node Snippets 1.4.0 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/166/" title="Download Node Snippets 1.4.0" class="more">Node Snippets 1.4.0</a></h4>
+		<p class="app-meta">Updated: March 13, 2025</p>
+		<p class="app-links"><a href="/category/snippets/" title="Category: Snippets">Snippets</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/3279/" title="Download Docs Preview 2.0.5 VSIX"><img src="https://pic.vsixhub.com/b2/f8/de68ef52-c4dc-442f-b4d2-64ee29729c37-icon.webp" loading="lazy" width="80" height="80" alt="Docs Preview 2.0.5 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/3279/" title="Download Docs Preview 2.0.5" class="more">Docs Preview 2.0.5</a></h4>
+		<p class="app-meta">Updated: June 20, 2025</p>
+		<p class="app-links"><a href="/category/snippets/" title="Category: Snippets">Snippets</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/21642/" title="Download MMStudio 40.0.1 VSIX"><img src="https://pic.vsixhub.com/83/19/d214dace-c697-4bbe-ab94-a160a9807108-icon.webp" loading="lazy" width="80" height="80" alt="MMStudio 40.0.1 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/21642/" title="Download MMStudio 40.0.1" class="more">MMStudio 40.0.1</a></h4>
+		<p class="app-meta">Updated: June 7, 2025</p>
+		<p class="app-links"><a href="/category/snippets/" title="Category: Snippets">Snippets</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/76576/" title="Download Curly Formatter 1.1.5 VSIX"><img src="https://pic.vsixhub.com/7d/3a/f1dc2069-db75-412b-b24e-337a959636b0-icon.webp" loading="lazy" width="80" height="80" alt="Curly Formatter 1.1.5 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/76576/" title="Download Curly Formatter 1.1.5" class="more">Curly Formatter 1.1.5</a></h4>
+		<p class="app-meta">Updated: April 13, 2025</p>
+		<p class="app-links"><a href="/category/snippets/" title="Category: Snippets">Snippets</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/140172/" title="Download Java 24.0.0 VSIX"><img src="https://pic.vsixhub.com/89/e6/oracle.oracle-java-icon.webp" loading="lazy" width="80" height="80" alt="Java 24.0.0 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/140172/" title="Download Java 24.0.0" class="more">Java 24.0.0</a></h4>
+		<p class="app-meta">Updated: April 17, 2025</p>
+		<p class="app-links"><a href="/category/snippets/" title="Category: Snippets">Snippets</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/141825/" title="Download Raspberry Pi Pico 0.17.6 VSIX"><img src="https://pic.vsixhub.com/ce/14/raspberry-pi.raspberry-pi-pico-icon.webp" loading="lazy" width="80" height="80" alt="Raspberry Pi Pico 0.17.6 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/141825/" title="Download Raspberry Pi Pico 0.17.6" class="more">Raspberry Pi Pico 0.17.6</a></h4>
+		<p class="app-meta">Updated: June 3, 2025</p>
+		<p class="app-links"><a href="/category/snippets/" title="Category: Snippets">Snippets</a></p>
+	</div>
+</div>
+<br>
+</div>
+<div class="sidebar-widget">
+	<h3 class="widget-head">Recommended</h3>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/94680/" title="Download massCode Assistant 2.0.0 VSIX"><img src="https://pic.vsixhub.com/e4/5b/fad04b52-4e6d-4a63-a5b1-84acb66e6dcd-icon.webp" loading="lazy" width="80" height="80" alt="massCode Assistant 2.0.0 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/94680/" title="Download massCode Assistant 2.0.0" class="more">massCode Assistant 2.0.0</a></h4>
+		<p class="app-meta">Updated: June 30, 2025</p>
+		<p class="app-links"><a href="/category/other/" title="Category: Other">Other</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/95188/" title="Download Azure Developer CLI 0.9.0 VSIX"><img src="https://pic.vsixhub.com/26/4b/fb1e66ca-2967-4d44-998d-bebe4014aadc-icon.webp" loading="lazy" width="80" height="80" alt="Azure Developer CLI 0.9.0 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/95188/" title="Download Azure Developer CLI 0.9.0" class="more">Azure Developer CLI 0.9.0</a></h4>
+		<p class="app-meta">Updated: April 17, 2025</p>
+		<p class="app-links"><a href="/category/azure/" title="Category: Azure">Azure</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/95437/" title="Download Fold Types 1.2.3 VSIX"><img src="https://pic.vsixhub.com/c2/25/4ae82381-b357-408b-aceb-d33e575ca4c6-icon.webp" loading="lazy" width="80" height="80" alt="Fold Types 1.2.3 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/95437/" title="Download Fold Types 1.2.3" class="more">Fold Types 1.2.3</a></h4>
+		<p class="app-meta">Updated: April 19, 2025</p>
+		<p class="app-links"><a href="/category/formatters/" title="Category: Formatters">Formatters</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/96888/" title="Download Bamboo 0.3.2 VSIX"><img src="https://pic.vsixhub.com/13/89/0def1f44-2272-4384-97dc-8ca297bdc4d0-icon.webp" loading="lazy" width="80" height="80" alt="Bamboo 0.3.2 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/96888/" title="Download Bamboo 0.3.2" class="more">Bamboo 0.3.2</a></h4>
+		<p class="app-meta">Updated: March 18, 2025</p>
+		<p class="app-links"><a href="/category/other/" title="Category: Other">Other</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/96894/" title="Download Resource Monitor 2.0.11 VSIX"><img src="https://pic.vsixhub.com/68/90/6077ef8a-437f-4b0d-965a-b74acfee921e-icon.webp" loading="lazy" width="80" height="80" alt="Resource Monitor 2.0.11 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/96894/" title="Download Resource Monitor 2.0.11" class="more">Resource Monitor 2.0.11</a></h4>
+		<p class="app-meta">Updated: June 10, 2025</p>
+		<p class="app-links"><a href="/category/other/" title="Category: Other">Other</a></p>
+	</div>
+</div>
+<div class="app">
+	<div class="app-img">
+		<a href="/vsix/96895/" title="Download Markdown Wiki 2.29.0 VSIX"><img src="https://pic.vsixhub.com/4b/84/9f3d95cc-d481-4f85-81a8-e1ca3be6d37e-icon.webp" loading="lazy" width="80" height="80" alt="Markdown Wiki 2.29.0 VSIX"></a>
+	</div>
+	<div class="app-info">
+		<h4 class="app-name"><a href="/vsix/96895/" title="Download Markdown Wiki 2.29.0" class="more">Markdown Wiki 2.29.0</a></h4>
+		<p class="app-meta">Updated: June 20, 2025</p>
+		<p class="app-links"><a href="/category/other/" title="Category: Other">Other</a></p>
+	</div>
+</div>
+<br>
+</div>
+<div class="sidebar-widget">
+	<h3 class="widget-head">More to Consider</h3>
+	<div class="app"><a href="/best-rated/11/" class="hidden" title="Best Rated Extensions in Snippets">Best Rated Extensions in Snippets</a></div>
+	<div class="app"><a href="/featured/11/" class="hidden" title="Featured Extensions in Snippets">Featured Extensions in Snippets</a></div>
+	<div class="app"><a href="/most-installed/11/" class="hidden" title="Most Installed Extensions in Snippets">Most Installed Extensions in Snippets</a></div>
+	<div class="app"><a href="/most-popular/11/" class="hidden" title="Most Popular Extensions in Snippets">Most Popular Extensions in Snippets</a></div>
+	<div class="app"><a href="/new/11/" class="hidden" title="New Added Extensions in Snippets">New Added Extensions in Snippets</a></div>
+	<div class="app"><a href="/top-new/11/" class="hidden" title="Top New Extensions in Snippets">Top New Extensions in Snippets</a></div>
+	<div class="app"><a href="/top-updated/11/" class="hidden" title="Top Updated Extensions in Snippets">Top Updated Extensions in Snippets</a></div>
+	<div class="app"><a href="/top/11/" class="hidden" title="Top Download Extensions in Snippets">Top Download Extensions in Snippets</a></div>
+	<div class="app"><a href="/trending/11/" class="hidden" title="Trending Today in Snippets">Trending Today in Snippets</a></div>
+	<div class="app"><a href="/trending-month/11/" class="hidden" title="Trending This Month in Snippets">Trending This Month in Snippets</a></div>
+	<div class="app"><a href="/trending-week/11/" class="hidden" title="Trending This Week in Snippets">Trending This Week in Snippets</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer" class="container clearfix">
+	<div class="foot-wrap container">
+		<p class="copyright">VsixHub.com &copy; 2025 <a href="/contact-us/">Contact Us</a> &bull; <a href="/privacy-policy/">Privacy Policy</a> &bull; <a href="/dmca-policy/">DMCA Policy</a></p>
+		<p class="credit">Powered by <a href="https://wordpress.org/" target="_blank" rel="nofollow noopener">WordPress</a> &amp; <a href="https://themepacific.com/" target="_blank" rel="noopener nofollow">ThemePacific</a></p>
+	</div>
+</div>
+<script src="https://s.vsixhub.com/site.min.js"></script>
+</body>
+</html>
