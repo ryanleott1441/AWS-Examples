@@ -11,8 +11,14 @@ open ~/.aws/credentials
 aws sts get-caller-identity --profile sts 
 
 
-
-
-## create a role
-
 ## Use new user creds and assume role
+
+aws sts assume-role \
+  --role-arn arn:aws:iam::804054839699:role/my-sts-fun-stack-StsRole-beWyBgRTA2MJ \
+  --role-session-name s3-sts-fun \
+  --profile sts
+
+aws iam put-user-policy \
+  --user-name Bob \
+  --policy-name ExamplePolicy \
+  --policy-document file://AdminPolicy.json

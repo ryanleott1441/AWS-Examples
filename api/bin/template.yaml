@@ -1,31 +1,35 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Create a role for us to assume
-Parameters:
-  BucketName:
-    Type: String
-    Default: "leotti"
+Description: Create an S3 bucket and a role that can be assumed to access it
+
 Resources:
-  StsRole:
-    Type: 'AWS::IAM::Role'
+  S3Bucket:
+    Type: AWS::S3::Bucket
     Properties:
+      BucketName: leotti
+
+  StsRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: StsS3AccessRole
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
           - Effect: Allow
             Principal:
-              Service:
-                - s3.amazonaws.com
-            Action:
-              - 'sts:AssumeRole'
+              AWS: arn:aws:iam::123456789012:user/sts-machine-user  
+            Action: sts:AssumeRole
       Path: /
       Policies:
-        - PolicyName: s3access
+        - PolicyName: S3AccessPolicy
           PolicyDocument:
             Version: "2012-10-17"
             Statement:
               - Effect: Allow
-                Action: '*'
-                Resource: 
-                  - arn:aws:s3:::leotti
-                  - arn:aws:s3:::leotti/*
-
+                Action:
+                  - s3:ListBucket
+                Resource: "arn:aws:s3:::leotti"
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:PutObject
+                Resource: "arn:aws:s3:::leotti/*"
